@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title></title>
+    <style>
+  
+
+
+    </style>
+  </head>
+<body>
+ 
+
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+    <rect class="mouse" x="0" y="0" width="800" height="300"/>
+    <polygon class="diamondMo tulip" points="400, 280, 310, 150, 400, 20, 490, 150"/>
+    <style>
+        .mouse { fill: #E5E4E3; }
+        .tulip { fill: #CC2954; }
+        .diamondMo {
+            animation-name: diamondMoves;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            transform-origin: 50% 50%;
+        }
+        @keyframes diamondMoves {
+            0%   { transform: translate(0, 0); }
+            20%  { transform: translate(0, -200px); }
+            30%  { transform: translate(0, 0); }
+            40%  { transform: translate(0, 200px); }
+            50%  { transform: translate(0, 0); }
+            60%  { transform: translate(-200px, 0); }
+            70%  { transform: translate(0, 0); }
+            80%  { transform: translate(200px, 0); }
+            100% { transform: translate(0, 0); }
+        }
+    </style>
+</svg>
+
+</body>
+</html>
