@@ -11,7 +11,7 @@ At this moment the project isn't in a stable state.
 3. Load resources from a packaged build
 4. Expose the DOM API to blueprints
 
-
+*Check the POC branch if you wanna test the project now*
 
 
 
