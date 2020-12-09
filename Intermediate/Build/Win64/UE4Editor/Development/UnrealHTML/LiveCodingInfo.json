@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.UnrealHTML.cpp.obj": [
+			"SUHWidget.cpp.obj",
+			"UnrealHTMLModule.cpp.obj"
+		]
+	}
+}

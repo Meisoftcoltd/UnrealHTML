@@ -1,0 +1,8 @@
+*.pdb
+*.res
+*.lib
+*.dll
+*.exp
+*.old
+*.cpp.obj
+*.response
